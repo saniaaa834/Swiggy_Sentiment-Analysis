@@ -1,0 +1,27 @@
+# Core
+pandas>=1.5
+numpy>=1.23
+matplotlib>=3.6
+
+# Data collection
+google-play-scraper>=1.2
+
+# Text processing
+nltk>=3.8
+contractions>=0.1.73
+
+# Sentiment
+vaderSentiment>=3.3.2
+textblob>=0.17
+
+# Features, models, visualisation
+scikit-learn>=1.2
+wordcloud>=1.9
+
+# Transformer models (RoBERTa sentiment + irony).
+# Optional: set USE_TRANSFORMERS = False in the notebook to skip them.
+transformers>=4.30
+torch>=2.0
+
+# Running the notebook locally
+jupyter
